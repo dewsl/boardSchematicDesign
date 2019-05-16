@@ -12377,6 +12377,7 @@ wave soldering</description>
 <part name="Q3" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="PNP-TRANSISTOR_" device="SOT23"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="F2" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="MF-SMDF" device="" package3d_urn="urn:adsk.eagle:package:14081/1" technology="050"/>
 </parts>
 <sheets>
 <sheet>
@@ -12694,6 +12695,10 @@ wave soldering</description>
 </instance>
 <instance part="GND29" gate="1" x="373.38" y="83.82">
 <attribute name="VALUE" x="370.84" y="81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="F2" gate="A" x="142.24" y="91.44">
+<attribute name="NAME" x="138.43" y="92.837" size="1.778" layer="95"/>
+<attribute name="VALUE" x="138.43" y="88.519" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13305,12 +13310,9 @@ wave soldering</description>
 <label x="40.64" y="256.54" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="+OUT1"/>
-<wire x1="132.08" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="91.44" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="+OUT"/>
-<wire x1="137.16" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
-<label x="137.16" y="91.44" size="1.778" layer="95"/>
+<pinref part="F2" gate="A" pin="2"/>
+<wire x1="147.32" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<label x="152.4" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3V31" class="0">
@@ -13685,6 +13687,17 @@ wave soldering</description>
 <junction x="373.38" y="99.06"/>
 <pinref part="BATT" gate="-1" pin="S"/>
 <wire x1="383.54" y1="96.52" x2="383.54" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="+OUT1"/>
+<pinref part="F2" gate="A" pin="1"/>
+<wire x1="132.08" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="+OUT"/>
+<wire x1="132.08" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="88.9" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<junction x="137.16" y="91.44"/>
 </segment>
 </net>
 </nets>
