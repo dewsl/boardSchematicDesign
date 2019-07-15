@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -6374,25 +6374,25 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <parts>
 <part name="DS3231" library="adafruit" deviceset="DS3231" device="/SO"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1uF"/>
+<part name="1UF" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1uF"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RTC-BATT" library="SparkFun-Passives" deviceset="CAP_POL" device="6032"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="MF-SMDF" device="" package3d_urn="urn:adsk.eagle:package:14081/1" technology="050"/>
 <part name="TRIG" library="SamacSys_Parts" deviceset="TLP290(SE(T" device=""/>
-<part name="R5" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="100ohm"/>
+<part name="100" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="100ohm"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="PNP-TRANSISTOR_" device="SOT23"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="PNP" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="PNP-TRANSISTOR_" device="SOT23"/>
+<part name="1K" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="m0_LoRa" deviceset="M0_LORA" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47k"/>
+<part name="47K" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47k"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="U$5" library="mini DC-DC 360" deviceset="MINI-DC-DC" device="DC-DC-2"/>
 <part name="U$6" library="due_shield_pad" deviceset="DUE_PADS" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k"/>
+<part name="4.7K2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k"/>
+<part name="4.7K" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k"/>
 <part name="POWER" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="J1" library="S2B-PH-SM4-TB(LF)(SN)" deviceset="S2B-PH-SM4-TB(LF)(SN)" device=""/>
 <part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
@@ -6415,7 +6415,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <part name="USB" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="EN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="VCC" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
-<part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="0.1UF" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -6429,7 +6429,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <instance part="GND1" gate="1" x="233.68" y="203.2" rot="MR0">
 <attribute name="VALUE" x="236.22" y="200.66" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C1" gate="G$1" x="279.4" y="223.52" rot="R180">
+<instance part="1UF" gate="G$1" x="279.4" y="223.52" rot="R180">
 <attribute name="NAME" x="281.69" y="222.27" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
 <attribute name="VALUE" x="277.1" y="222.27" size="1.27" layer="96" font="vector" rot="R270" align="center"/>
 </instance>
@@ -6451,18 +6451,18 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <attribute name="NAME" x="232.41" y="172.72" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="232.41" y="170.18" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R5" gate="G$1" x="195.58" y="152.4" rot="R180">
+<instance part="100" gate="G$1" x="195.58" y="152.4" rot="R180">
 <attribute name="NAME" x="195.58" y="149.86" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
 <attribute name="VALUE" x="195.58" y="152.4" size="1.016" layer="96" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
 <instance part="GND21" gate="1" x="213.36" y="147.32">
 <attribute name="VALUE" x="210.82" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="246.38" y="165.1">
+<instance part="PNP" gate="G$1" x="246.38" y="165.1">
 <attribute name="NAME" x="236.22" y="172.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="236.22" y="170.18" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="248.92" y="149.86" rot="R270">
+<instance part="1K" gate="G$1" x="248.92" y="149.86" rot="R270">
 <attribute name="NAME" x="250.4186" y="153.67" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="245.618" y="153.67" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -6470,7 +6470,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <attribute name="VALUE" x="246.38" y="137.16" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="63.5" y="213.36"/>
-<instance part="R1" gate="G$1" x="198.12" y="233.68">
+<instance part="47K" gate="G$1" x="198.12" y="233.68">
 <attribute name="NAME" x="194.31" y="235.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="230.378" size="1.778" layer="96"/>
 </instance>
@@ -6485,11 +6485,11 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <instance part="GND3" gate="1" x="99.06" y="121.92">
 <attribute name="VALUE" x="96.52" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="251.46" y="248.92" rot="R270">
+<instance part="4.7K2" gate="G$1" x="251.46" y="248.92" rot="R270">
 <attribute name="NAME" x="247.8786" y="252.73" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="248.158" y="247.65" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R2" gate="G$1" x="256.54" y="248.92" rot="R270">
+<instance part="4.7K" gate="G$1" x="256.54" y="248.92" rot="R270">
 <attribute name="NAME" x="258.0386" y="252.73" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="258.318" y="247.65" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -6581,7 +6581,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <attribute name="NAME" x="153.797" y="207.5942" size="1.778" layer="95"/>
 <attribute name="VALUE" x="153.797" y="202.438" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="289.56" y="223.52" rot="R180">
+<instance part="0.1UF" gate="G$1" x="289.56" y="223.52" rot="R180">
 <attribute name="NAME" x="291.85" y="222.27" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
 <attribute name="VALUE" x="287.26" y="222.27" size="1.27" layer="96" font="vector" rot="R270" align="center"/>
 </instance>
@@ -6594,7 +6594,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="1UF" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -6644,14 +6644,14 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <junction x="254" y="228.6"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="100" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="213.36" y1="149.86" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND27" gate="1" pin="GND"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="1K" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="142.24" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
 <junction x="248.92" y="144.78"/>
 <pinref part="TRIG" gate="G$1" pin="EMITTER"/>
@@ -6700,7 +6700,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <label x="127" y="251.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="0.1UF" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -6709,7 +6709,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <pinref part="DS3231" gate="G$1" pin="SDA"/>
 <wire x1="248.92" y1="236.22" x2="256.54" y2="236.22" width="0.1524" layer="91"/>
 <label x="251.46" y="236.22" size="1.778" layer="95"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="4.7K" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="236.22" x2="261.62" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="243.84" x2="256.54" y2="236.22" width="0.1524" layer="91"/>
 <junction x="256.54" y="236.22"/>
@@ -6730,7 +6730,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <pinref part="DS3231" gate="G$1" pin="SCL"/>
 <wire x1="248.92" y1="238.76" x2="251.46" y2="238.76" width="0.1524" layer="91"/>
 <label x="251.46" y="238.76" size="1.778" layer="95"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="4.7K2" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="243.84" x2="251.46" y2="238.76" width="0.1524" layer="91"/>
 <junction x="251.46" y="238.76"/>
 <wire x1="251.46" y1="238.76" x2="261.62" y2="238.76" width="0.1524" layer="91"/>
@@ -6764,7 +6764,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 </net>
 <net name="+MAIN" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="PNP" gate="G$1" pin="E"/>
 <wire x1="248.92" y1="170.18" x2="248.92" y2="180.34" width="0.1524" layer="91"/>
 <label x="248.92" y="180.34" size="1.778" layer="95"/>
 </segment>
@@ -6789,21 +6789,21 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <pinref part="TRIG" gate="G$1" pin="CATHODE_ANODE"/>
 <wire x1="190.5" y1="162.56" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="162.56" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="100" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="TRIG" gate="G$1" pin="COLLECTOR"/>
-<pinref part="Q1" gate="G$1" pin="B"/>
+<pinref part="PNP" gate="G$1" pin="B"/>
 <wire x1="236.22" y1="165.1" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TRIG_DUE" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="1K" gate="G$1" pin="1"/>
+<pinref part="PNP" gate="G$1" pin="C"/>
 <wire x1="248.92" y1="154.94" x2="248.92" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="157.48" x2="248.92" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="157.48" x2="259.08" y2="157.48" width="0.1524" layer="91"/>
@@ -6840,12 +6840,12 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <label x="210.82" y="236.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="1UF" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="226.06" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
 <label x="279.4" y="231.14" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="47K" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="233.68" x2="193.04" y2="233.68" width="0.1524" layer="91"/>
 <label x="187.96" y="233.68" size="1.778" layer="95"/>
 </segment>
@@ -6855,9 +6855,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <label x="30.48" y="243.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="4.7K2" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="254" x2="251.46" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="4.7K" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="256.54" x2="254" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="254" y1="256.54" x2="256.54" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="256.54" x2="256.54" y2="254" width="0.1524" layer="91"/>
@@ -6871,7 +6871,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <label x="162.56" y="251.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="0.1UF" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="226.06" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
 <label x="289.56" y="231.14" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -6885,7 +6885,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881353P"&gt; Datashe
 <segment>
 <pinref part="DS3231" gate="G$1" pin="SQW/INT"/>
 <wire x1="218.44" y1="233.68" x2="203.2" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="47K" gate="G$1" pin="2"/>
 <label x="205.74" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
